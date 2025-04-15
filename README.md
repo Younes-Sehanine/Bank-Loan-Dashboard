@@ -14,9 +14,9 @@ A comprehensive analytical solution for commercial loan management featuring SQL
 - [Dashboard Specifications](#dashboard-specifications)
 - [SQL Query Catalog](#sql-query-catalog)
 - [Tableau Implementation](#tableau-implementation)
-- [Installation Guide](#installation-guide)
 - [Validation Protocol](#validation-protocol)
 - [What Is Lacking](#what-is-lacking)
+- [Additional Resources](#additional-resources)
 
 ---
 
