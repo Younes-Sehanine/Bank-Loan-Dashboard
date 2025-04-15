@@ -196,26 +196,6 @@ ORDER BY address_state;
 
 ---
 
-## Installation Guide
-
-### Database Setup
-```sql
-CREATE DATABASE BankLoanDB;
--- Import data using SQL Server Import Wizard
-```
-
-### Tableau Connection
-- **Server:** localhost
-- **Database:** BankLoanDB
-- **Table:** bank_loan_data
-
-### Excel Validation
-1. Open `Data_Validation.xlsx`
-2. Refresh Power Query connections
-3. Verify against SQL results
-
----
-
 ## Validation Protocol
 
 ### Cross-System Verification
@@ -230,6 +210,27 @@ CREATE DATABASE BankLoanDB;
 - Null Value Identification
 - Range Validation (e.g., interest rates between 5–25%)
 - Consistency Checks (e.g., issue_date < last_payment_date)
+
+---
+
+
+Additional Resources
+For further exploration and reference, please access the following:
+
+Tableau Dashboard:
+View Tableau Dashboard
+
+Dataset File:
+Download Dataset
+
+Project File:
+Download Project File
+
+SQL File:
+Download SQL File
+
+SQL Query Documentation:
+Download SQL Query Docx
 
 ---
 
