@@ -1,4 +1,3 @@
-```markdown
 # Bank Loan Portfolio Analytics System
 
 ![Dashboard Interface](https://via.placeholder.com/1200x500.png?text=Bank+Loan+Analysis+Dashboards)
