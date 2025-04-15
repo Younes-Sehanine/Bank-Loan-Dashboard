@@ -15,7 +15,6 @@ A comprehensive analytical solution for commercial loan management featuring SQL
 - [SQL Query Catalog](#sql-query-catalog)
 - [Tableau Implementation](#tableau-implementation)
 - [Validation Protocol](#validation-protocol)
-- [What Is Lacking](#what-is-lacking)
 - [Additional Resources](#additional-resources)
 
 ---
@@ -214,7 +213,7 @@ ORDER BY address_state;
 ---
 
 
-Additional Resources
+##Additional Resources
 For further exploration and reference, please access the following:
 
 Tableau Dashboard:
