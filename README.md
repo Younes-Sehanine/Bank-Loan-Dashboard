@@ -213,7 +213,7 @@ ORDER BY address_state;
 ---
 
 
-##Additional Resources
+## Additional Resources
 For further exploration and reference, please access the following:
 
 Tableau Dashboard:
