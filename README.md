@@ -32,7 +32,7 @@ Enable data-driven loan portfolio management through three interactive dashboard
 - Loan purpose breakdown
 
 **Technical Stack:**
-- **Database:** MS SQL Server 2020
+- **Database:** MS SQL Server 2019
 - **BI Visualization:** Tableau 2024.3
 - **Data Validation:** Excel 2021
 
@@ -41,14 +41,16 @@ Enable data-driven loan portfolio management through three interactive dashboard
 ## Technical Architecture
 
 ```mermaid
-graph LR
-    A[CSV file] --> B[SQL Server]
-    B[SQL Server] --> C{Stored Procedures}
-    C --> D[Tableau Data Model]
-    D --> E[Dashboard Layer]
-    E --> F[User Interaction]
+graph TD
+    A[Raw CSV Data] --> B{SQL Server ETL}
+    B --> C[Cleaned Data]
+    C --> D[Tableau Prep]
+    D --> E[Analytical Base Tables]
+    E --> F((Tableau Server))
+    F --> G[Dashboard 1: Executive Summary]
+    F --> H[Dashboard 2: Risk Analysis]
+    F --> I[Dashboard 3: Loan Details]
 ```
-
 ---
 
 ## Key Performance Indicators
@@ -71,17 +73,26 @@ graph LR
      - Loan status distribution
      - Good/Bad loan comparison
 
-2. **Operational Overview**
+ ![BANK LOAN REPORT  SUMMARY](https://github.com/user-attachments/assets/2c1e4a01-d7de-4c8c-b152-0e76700ef857)
+
+
+3. **Operational Overview**
    - **Analytical Features:**
      - Month-over-Month trends
      - State-wise performance mapping
      - Loan purpose breakdown
+    
+   ![BANK LOAN REPORT  OVERVIEW](https://github.com/user-attachments/assets/ecf9a27c-803b-4fdf-91ed-f779049aedfe)
 
-3. **Detailed Exploration**
+
+5. **Detailed Exploration**
    - **Core Functionality:**
      - Full dataset access
      - Column-wise filtering
      - Cross-field search
+
+   ![BANK LOAN REPORT  DETAILS](https://github.com/user-attachments/assets/28351784-a476-4308-abe8-55eb6df8a331)
+
 
 ---
 
@@ -221,7 +232,7 @@ Tableau Dashboard:
 View Tableau Dashboard
 
 Dataset File:
-Download Dataset
+<a href="https://github.com/Younes-Sehanine/Road_Accident_Dashboard/blob/main/Road%20Accident%20Data.xlsx" >`Road Accident Data.xlsx`</a>
 
 Project File:
 Download Project File
