@@ -48,7 +48,7 @@ graph LR
     D --> E[Dashboard Layer]
     E --> F[User Interaction]
 ```
-```mermaid
+```graph TD
     A[Raw CSV Data] --> B{SQL Server ETL}
     B --> C[Cleaned Data]
     C --> D[Tableau Prep]
