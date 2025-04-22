@@ -42,10 +42,11 @@ Enable data-driven loan portfolio management through three interactive dashboard
 
 ```mermaid
 graph LR
-    A[SQL Server] --> B{Stored Procedures}
-    B --> C[Tableau Data Model]
-    C --> D[Dashboard Layer]
-    D --> E[User Interaction]
+    A[CSV file] --> B[SQL Server]
+    B[SQL Server] --> C{Stored Procedures}
+    C --> D[Tableau Data Model]
+    D --> E[Dashboard Layer]
+    E --> F[User Interaction]
 ```
 
 ---
