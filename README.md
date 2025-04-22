@@ -32,8 +32,8 @@ Enable data-driven loan portfolio management through three interactive dashboard
 - Loan purpose breakdown
 
 **Technical Stack:**
-- **Database:** MS SQL Server 2019
-- **BI Visualization:** Tableau 2023.2
+- **Database:** MS SQL Server 2020
+- **BI Visualization:** Tableau 2024.3
 - **Data Validation:** Excel 2021
 
 ---
