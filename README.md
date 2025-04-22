@@ -41,7 +41,6 @@ Enable data-driven loan portfolio management through three interactive dashboard
 ## Technical Architecture
 
 ```mermaid
-```mermaidgraph LR
     A[CSV file] --> B[SQL Server]
     B[SQL Server] --> C{Stored Procedures}
     C --> D[Tableau Data Model]
