@@ -32,7 +32,7 @@ Enable data-driven loan portfolio management through three interactive dashboard
 - Loan purpose breakdown
 
 **Technical Stack:**
-- **Database:** MS SQL Server 2020
+- **Database:** MS SQL Server 2019
 - **BI Visualization:** Tableau 2024.3
 - **Data Validation:** Excel 2021
 
@@ -48,7 +48,16 @@ graph LR
     D --> E[Dashboard Layer]
     E --> F[User Interaction]
 ```
-
+```mermaid
+    A[Raw CSV Data] --> B{SQL Server ETL}
+    B --> C[Cleaned Data]
+    C --> D[Tableau Prep]
+    D --> E[Analytical Base Tables]
+    E --> F((Tableau Server))
+    F --> G[Dashboard 1: Executive Summary]
+    F --> H[Dashboard 2: Risk Analysis]
+    F --> I[Dashboard 3: Loan Details]
+```
 ---
 
 ## Key Performance Indicators
@@ -230,7 +239,7 @@ Tableau Dashboard:
 View Tableau Dashboard
 
 Dataset File:
-Download Dataset
+<a href="https://github.com/Younes-Sehanine/Road_Accident_Dashboard/blob/main/Road%20Accident%20Data.xlsx" >`Road Accident Data.xlsx`</a>
 
 Project File:
 Download Project File
