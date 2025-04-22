@@ -70,7 +70,7 @@ graph LR
      - Real-time KPI metrics
      - Loan status distribution
      - Good/Bad loan comparison
-     - 
+
  ![BANK LOAN REPORT  SUMMARY](https://github.com/user-attachments/assets/2c1e4a01-d7de-4c8c-b152-0e76700ef857)
 
 
@@ -88,7 +88,7 @@ graph LR
      - Full dataset access
      - Column-wise filtering
      - Cross-field search
-     - 
+
    ![BANK LOAN REPORT  DETAILS](https://github.com/user-attachments/assets/28351784-a476-4308-abe8-55eb6df8a331)
 
 
