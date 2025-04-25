@@ -1,6 +1,5 @@
 # Bank Loan Portfolio Analytics System
 
-![Dashboard Interface](https://via.placeholder.com/1200x500.png?text=Bank+Loan+Analysis+Dashboards)
 
 A comprehensive analytical solution for commercial loan management featuring SQL data engineering, Tableau visualization, and Excel validation workflows.
 
