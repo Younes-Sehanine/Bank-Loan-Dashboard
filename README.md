@@ -248,6 +248,6 @@ SQL Query Documentation:
 ---
 
 *Thank you for reviewing the Bank Loan Portfolio Analytics System. For more detailed information, please refer to my portfolio website and project link provided in the repository description.*
-```
+``
 # 📂 Explore the Project!
 -<a href="https://younes-sehanine.netlify.app/bank-loan-analysis" >`Live Dashboard & Methodology`</a>
