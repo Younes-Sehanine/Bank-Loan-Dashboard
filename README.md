@@ -231,19 +231,19 @@ ORDER BY address_state;
 For further exploration and reference, please access the following:
 
 Tableau Dashboard:
-View Tableau Dashboard
+<a href="[https://github.com/Younes-Sehanine/Road_Accident_Dashboard/blob/main/Road%20Accident%20Data.xlsx](https://public.tableau.com/app/profile/younes.yuu6824/viz/Bank_Loan_Sashboard/SUMMARY)" >`View Tableau Dashboard`</a>
 
 Dataset File:
-<a href="https://github.com/Younes-Sehanine/Road_Accident_Dashboard/blob/main/Road%20Accident%20Data.xlsx" >`Road Accident Data.xlsx`</a>
+<a href="https://github.com/Younes-Sehanine/Road_Accident_Dashboard/blob/main/Road%20Accident%20Data.xlsx" >`Download Project dataset`</a>
 
 Project File:
-Download Project File
+<a href="https://github.com/Younes-Sehanine/Bank-Loan-Dashboard/blob/main/Bank_Loan_Dashboard.twbx" >`Download Project File`</a>
 
 SQL File:
-Download SQL File
+<a href="https://github.com/Younes-Sehanine/Bank-Loan-Dashboard/blob/main/Bank%20loan%20project.sql" >`Download SQL File`</a>
 
 SQL Query Documentation:
-Download SQL Query Docx
+<a href="https://github.com/Younes-Sehanine/Bank-Loan-Dashboard/blob/main/BANK%20LOAN%20REPORT%20QUERY%20DOCUMENTATION.docx" >`Download SQL Query Docx`</a>
 
 ---
 
